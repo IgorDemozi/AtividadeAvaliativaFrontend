@@ -60,12 +60,12 @@ input{
 
 /* ^ header - main v */
 
-.main{
+.main-div{
     display: grid;
     height: 650px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 0.2fr 1fr 1fr;
-    gap: 3em;
+    gap: 4em;
     margin: 1em;
 }
 
@@ -115,3 +115,59 @@ h1{
     width: 100%;
 }
 
+/* main 2 */
+
+.main-div-2{
+    display: grid;
+    height: 350px;
+    grid-template-columns: 0.95fr 1.05fr;
+    grid-template-rows: 1fr;
+    gap: 3em;
+    margin: 12em 4% 0 4%;
+    border-bottom: 2px solid #707070;
+}
+
+.main-div-3{
+    display: grid;
+    height: 350px;
+    grid-template-columns: 0.95fr 1.05fr;
+    grid-template-rows: 1fr;
+    gap: 3em;
+    margin: 3em 4% 0 4%;
+    border-bottom: 2px solid #707070;
+}
+
+.main-2-imagem{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.dinheiro{
+    height: auto;
+    width: 100%;
+}
+
+.main-2-texto{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: left;
+}
+
+.texto-1{
+    font: normal normal 600 20px/33px Segoe UI;
+}
+
+.texto-2{
+    font: normal normal 600 30px/47px Segoe UI;
+    color: #C4170C;
+}
+
+.texto-3{
+    font: normal normal normal 21px/36px Segoe UI;
+    margin: 1em 0;
+}
+
+.texto-4{
+    font: normal normal normal 21px/36px Segoe UI;
+    color: #746565;
+}

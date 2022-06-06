@@ -1,0 +1,60 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background: #C4170C;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.menu-div{
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+}
+
+.menu-div p{
+    padding-bottom: 0.1em;
+    text-transform: uppercase;
+}
+
+.barra-de-menu{
+    width: 1.6em;
+    margin-right: 0.5em;
+}
+
+.logo-g1{
+    width: 3.5em;
+}
+
+.input-div{
+    margin-right: 2%;
+}
+
+input{
+    background-color: #8B0000;
+    color: white;
+    background-image: url(../imagens/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: 4%;
+    background-size: 1.3em;
+    padding: 0.4em;
+    padding-left: 2.5em;
+    border: 1px solid #707070;
+    border-radius: 8px;
+}
+
+::placeholder{
+    color: white;
+}
+
+/* ^ header - main v */
+
+h1{
+    text-transform: uppercase;
+}

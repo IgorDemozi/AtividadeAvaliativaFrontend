@@ -6,10 +6,12 @@ body p{
     margin: 0;
 }
 
+/* header */
+
 .header{
     background: #C4170C;
     width: 100%;
-    height: 4em;
+    height: 5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +35,7 @@ body p{
 }
 
 .logo-g1{
-    width: 3.5em;
+    width: 4em;
     margin-left: 5em;
 }
 
@@ -58,7 +60,7 @@ input{
     color: white;
 }
 
-/* ^ header - main v */
+/*main*/
 
 .main-div{
     display: grid;
@@ -73,6 +75,7 @@ h1{
     text-transform: uppercase;
     grid-column: 1/-1;
     text-align: center;
+    margin-top: 1.5em;
 }
 
 .div-container-primario{
@@ -170,4 +173,47 @@ h1{
 .texto-4{
     font: normal normal normal 21px/36px Segoe UI;
     color: #746565;
+}
+
+.veja-mais{
+    background: #C4170C;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 12% 41%;
+    padding: 1em;
+    border-radius: 4px;
+}
+
+/* footer */
+
+.footer{
+    height: 170px;
+    background: #C4170C;
+    border: 1px solid #707070;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-div-1{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.footer .logo-g1{
+    width: 5em;
+    margin-right: 1.5em;
+}
+
+.footer-div-2{
+    height: 2em;
+    width: 100%;
+    margin-left: 5em;
+    margin-right: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
 }
